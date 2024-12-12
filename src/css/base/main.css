@@ -1,0 +1,15 @@
+body {
+    font-family: 'cascadia-code';
+    font-size: 12px;
+    line-height: 1.6;
+    background-color: white;
+    font-weight: 300;
+  }
+
+.section__subtitle {
+    font-family: 'cascadia-code';
+    font-size: 12px;
+    line-height: 1.6;
+    background-color: white;
+    font-weight: 300;  
+}
