@@ -14,7 +14,8 @@
 /* Layout */
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/carousel.css";
 
 /* Components */
 @import "components/program.css";
-@import "components/section.css"
+@import "components/section.css";
