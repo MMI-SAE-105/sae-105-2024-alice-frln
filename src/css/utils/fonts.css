@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Cascadia Code' format("truetype");
+    src: url(/assets/fonts/cascadia-code/webfontkit-20241212-024945/cascadia-webfont.woff2);
+  }
+
+@font-face {
+    font-family: 'traditional-punk';
+    src: url(/assets/fonts/traditional_punk/webfontkit-20241212-025148/traditional_punk-webfont.woff2);
+  }
+
+@font-face {
+    font-family: 'NeoPrint m319';
+    src: url(/assets/fonts/neoprint_m319/NeoPrintM319.otf);
+  }
+
+@font-face {
+    font-family: 'Labor Union';
+    src: url(/assets/fonts/labor-union/webfontkit-20241212-024820/laborunion-regular-webfont.woff2);
+  }
+
+@font-face {
+    font-family: 'Power Grotesk Trial';
+    src: url(/assets/fonts/PTF-PowerGrotesk-Trial-Fonts/);
+  }

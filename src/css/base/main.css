@@ -2,14 +2,26 @@ body {
     font-family: "Cascadia Code";
     font-size: 12px;
     line-height: 1.6;
-    background-color: white;
+    background-color: var(--gris-foncé-fond);
     font-weight: 300;
+    color: white;
   }
 
 .section__subtitle {
-    font-family: "Cascadia Code";
-    font-size: 12px;
+    font-family: "Labor Union";
+    font-size: 20px;
     line-height: 1.6;
-    background-color: white;
+    background-color: var(--gris-foncé-fond);
     font-weight: 300;
+    color : white;
+}
+
+
+.banner__title {
+    font-family: "NeoPrint m319";
+    font-size: 48px;
+    line-height: 1.6;
+    background-color: var(--gris-foncé-fond);
+    font-weight: 300;
+    color : white;
 }
