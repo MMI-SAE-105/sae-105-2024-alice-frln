@@ -1,0 +1,32 @@
+.header { 
+    display: flex;
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center; /* Alignement vertical */
+    padding: 0 1rem; /* Espace interne sur les côtés */
+    margin-top: 1rem; /* Espace au-dessus du header */
+    width: 100%; /* Le header occupe toute la largeur */
+    max-width: 100vw; /* Empêche de dépasser l'écran */
+}
+
+.header__logo {
+    width: 66px; /* Taille proportionnelle pour le logo */
+}
+
+.header__logo__title {
+    flex-grow: 1; /* Permet à l'image du titre de s'étendre dans l'espace central */
+    width: 57%; /* Conserve une largeur proportionnelle */
+    max-width: 400px; /* Limite la taille maximale pour l'image */
+    height: auto; /* Conserve les proportions de l'image */
+    object-fit: contain; /* S'adapte sans déformation */
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+    align: center; /* Assure un bon alignement central */
+}
+
+.header__menu {
+    flex-shrink: 0; /* Empêche la réduction du menu */
+    width: 10%; /* Taille proportionnelle pour le menu */
+    max-width: 60px; /* Limite la taille maximale */
+    height: auto; /* Conserve les proportions */
+    cursor: pointer; /* Indique que le menu est cliquable */
+}
