@@ -25,3 +25,12 @@ body {
     font-weight: 300;
     color : white;
 }
+
+.program__title {
+    font-family: "Traditional Punk";
+    font-size: 4rem;
+    line-height: 1.6;
+    background-color: var(--gris-foncé-fond);
+    font-weight: 300;
+    color: var(--vert-site);
+}
