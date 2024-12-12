@@ -1,0 +1,41 @@
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-image {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f4f4f4;
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block;
+}

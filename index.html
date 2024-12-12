@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/export-photo-figma/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/export-photo-figma/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script src="src/js/menu.js"></script>
 </head>
 <body>
     <header class="header">
@@ -18,39 +19,33 @@
             <img class="header__logo" src="./assets/img/logo_header_bis.webp" alt=""/>
         </a>
         <img class="header__logo__title" src="./assets/img/titre_logo.webp" alt="Les cinés-Échos"/>
-        <img class="header__menu" src="./assets/icon-vectors/hamburger-menu_icon.svg" alt="Icone de menu hamburger"/>
+        <span class="menu-container">
+        <img class="header__menu menu-image" src="./assets/icon-vectors/hamburger-menu_icon.svg" alt="Icone de menu hamburger"/>
+        <ul class="dropdown-menu">
+            <li><a href="#">Page d'acceuil</a></li>
+            <li><a href="#">Programme</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Film</a></li>
+            <li><a href="#">Infos pratiques</a></li>
+            <li><a href="#">Invités</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </span>
     </header>
- <main class="section">
+
+    <!--
     <section class="banner">
         <img class="banner-background" src="./assets/img/fondflottaison.webp" alt="" aria-hidden="true"/>
         <p class="subtitle">Du lundi 2 juillet au dimanche 8 juillet 2024 à Héricourt</p>
         <button>Réservez maintenant</button>
     </section>
-</main>
+-->
+    <main class="section">
+        <section>
+            <p id="test" class="subtitle">Du lundi 2 juillet au dimanche 8 juillet 2024 à Héricourt</p>
+        <button>Réservez maintenant</button>
 
- <nav>
-        <ul class="menu__list" >
-            <li class="menu__item">
-              <a class="menu__link" href="">Programme</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="">À propos</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="">Film</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="">Infos pratiques</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="">Invités</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="">Contact</a>
-            </li>
-        </ul>
- </nav>
- <main>
+        </section>
         <section class="intro">
             <h3 class="section__subtitle">Plongez dans l’univers des jeunes créateurs du cinéma!</h3>
             <p>Le festival Les Ciné-Échos vous invite à découvrir des films indépendants, des projections inédites en plein air et des expériences immersives. Rejoignez-nous à Héricourt pour une semaine de cinéma, de rencontres et d'ateliers créatifs. Vivez une aventure unique à travers le 7e art !</p>
@@ -78,34 +73,34 @@
                 <img class="partenaire_pic_square" src="./assets/img/acceuil_partenaires_culture70.webp" alt="Logo du partenaire culture 70" loading="lazy">
             </div>
         </section>
- </main>
- <footer class="footer">
-    <img class="footer__logo" src="./assets/img/logo_titre_et_texte.webp" alt="" aria-hidden="true" loading="lazy"/>
-    <p class="footer__title">Les Cinés-Echos 2024</p>
-    <p>02-08 juillet 2024 | Héricourt, Nord Franche-Comté</p>
-    <p class="footer__title">Informations Pratiques</p>
-    <p>Contact : info@lescinesechos.com
-        Téléphone : +33 1 23 45 67 89
-        Adresse : 123 Rue du Cinéma, Héricourt, France</p>
-    <p class="footer__title">Restez connectés !</p>
-    <div class="socials">
-        <a class="socials__logo-link" href="">
-            <img class="header__logo" src="./assets/icon-vectors/icon_facebook.svg" alt="Redirection vers notre compte Facebook" loading="lazy"/>
-        </a>
-        <a class="socials__logo-link" href="">
-            <img class="header__logo" src="./assets/icon-vectors/icon_x.svg" alt="Redirection vers notre compte X" loading="lazy"/>
-        </a>
-        <a class="socials__logo-link" href="">
-            <img class="header__logo" src="./assets/icon-vectors/vector_tiktok.svg" alt="Redirection vers notre compte Tiktok" loading="lazy"/>
-        </a>
-        <a class="socials__logo-link" href="">
-            <img class="header__logo" src="./assets/icon-vectors/icon_instagram.svg" alt="Redirection vers notre compte Instagram" loading="lazy"/>
-        </a>
-        <a class="socials__logo-link" href="">
-            <img class="header__logo" src="./assets/icon-vectors/icon_youtbe.svg" alt="Redirection vers notre compte Youtube" loading="lazy"/>
-        </a>
-    </div>
-    <img id="footer_background" src="./assets/img/fond_footer.webp" alt="" aria-hidden="true" loading="lazy">
-</footer>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="./assets/img/logo_titre_et_texte.webp" alt="" aria-hidden="true" loading="lazy"/>
+        <p class="footer__title">Les Cinés-Echos 2024</p>
+        <p>02-08 juillet 2024 | Héricourt, Nord Franche-Comté</p>
+        <p class="footer__title">Informations Pratiques</p>
+        <p>Contact : info@lescinesechos.com
+            Téléphone : +33 1 23 45 67 89
+            Adresse : 123 Rue du Cinéma, Héricourt, France</p>
+        <p class="footer__title">Restez connectés !</p>
+        <div class="socials">
+            <a class="socials__logo-link" href="">
+                <img class="header__logo" src="./assets/icon-vectors/icon_facebook.svg" alt="Redirection vers notre compte Facebook" loading="lazy"/>
+            </a>
+            <a class="socials__logo-link" href="">
+                <img class="header__logo" src="./assets/icon-vectors/icon_x.svg" alt="Redirection vers notre compte X" loading="lazy"/>
+            </a>
+            <a class="socials__logo-link" href="">
+                <img class="header__logo" src="./assets/icon-vectors/vector_tiktok.svg" alt="Redirection vers notre compte Tiktok" loading="lazy"/>
+            </a>
+            <a class="socials__logo-link" href="">
+                <img class="header__logo" src="./assets/icon-vectors/icon_instagram.svg" alt="Redirection vers notre compte Instagram" loading="lazy"/>
+            </a>
+            <a class="socials__logo-link" href="">
+                <img class="header__logo" src="./assets/icon-vectors/icon_youtbe.svg" alt="Redirection vers notre compte Youtube" loading="lazy"/>
+            </a>
+        </div>
+        <img id="footer_background" src="./assets/img/fond_footer.webp" alt="" aria-hidden="true" loading="lazy">
+    </footer>
 </body>
 </html>

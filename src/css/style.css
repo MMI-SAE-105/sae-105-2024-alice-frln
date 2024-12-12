@@ -17,5 +17,6 @@
 @import "layout/carousel.css";
 
 /* Components */
+@import "components/menu.css";
 @import "components/program.css";
 @import "components/section.css";
