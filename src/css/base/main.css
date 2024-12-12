@@ -11,16 +11,6 @@ body {
     color: white;
   }
 
-.section__subtitle {
-    font-family: "Labor Union";
-    font-size: 20px;
-    line-height: 1.6;
-    background-color: var(--gris-foncé-fond);
-    font-weight: 300;
-    color : white;
-}
-
-
 .banner__title {
     font-family: "NeoPrint m319";
     font-size: 3rem;
@@ -29,5 +19,3 @@ body {
     font-weight: 300;
     color : white;
 }
-
-
