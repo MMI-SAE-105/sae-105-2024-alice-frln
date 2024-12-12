@@ -5,6 +5,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 main {
@@ -163,5 +164,9 @@ template {
 
 [hidden] {
     display: none;
+}
+
+h2 {
+    margin: 0;
 }
   

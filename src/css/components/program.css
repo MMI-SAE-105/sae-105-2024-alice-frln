@@ -1,0 +1,27 @@
+.program__title {
+    font-family: "Traditional Punk";
+    font-size: 4rem;
+    line-height: 1.6;
+    background-color: var(--gris-foncé-fond);
+    font-weight: 300;
+    color: var(--vert-site);
+}
+
+.program_text {
+    font-family: "Labor Union";
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: var(--gris-foncé-fond);
+    font-weight: 300;
+    color: white; 
+    margin-left: var(--spacesm);
+    margin-top: 0;
+    margin-bottom: var(--spacesm);
+}
+
+.program_body {
+    margin-left: var(--spacesm);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}

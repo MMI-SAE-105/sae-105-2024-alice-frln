@@ -13,20 +13,20 @@
 }
 
 .header__logo__title {
-    flex-grow: 1; /* Permet à l'image du titre de s'étendre dans l'espace central */
-    width: 57%; /* Conserve une largeur proportionnelle */
-    max-width: 400px; /* Limite la taille maximale pour l'image */
-    height: auto; /* Conserve les proportions de l'image */
-    object-fit: contain; /* S'adapte sans déformation */
+    flex-grow: 1;
+    width: 47%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain; 
     display: block;
-    margin: 0 auto; /* Centre l'image horizontalement */
-    align: center; /* Assure un bon alignement central */
+    margin: 0 auto;
+    align: center;
 }
 
 .header__menu {
-    flex-shrink: 0; /* Empêche la réduction du menu */
-    width: 10%; /* Taille proportionnelle pour le menu */
-    max-width: 60px; /* Limite la taille maximale */
-    height: auto; /* Conserve les proportions */
-    cursor: pointer; /* Indique que le menu est cliquable */
+    flex-shrink: 0;
+    width: 10%;
+    max-width: 60px;
+    height: auto;
+    cursor: pointer;
 }
