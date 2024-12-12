@@ -1,0 +1,35 @@
+:root {
+    /* color */
+    --gris-foncé-fond: #1e1e1e;
+    --rose-site: #ff7ad1;
+    --vert-site: #aed02f;
+
+    /* Espaces */
+  --spacexs: 10px;
+  --spaces: 20px;
+  --spacem: 40px;
+  --spacel: 60px;
+  --spacexl: 80px;
+  --spacexxl: 120px;
+  }
+
+    /* Polices */
+  @font-face {
+    font-family: 'cascadia-code';
+    src: url(/assets/fonts/cascadia-code/Cascadia.ttf);
+  }
+
+  @font-face {
+    font-family: 'traditional-punk';
+    src: url(/assets/fonts/traditional_punk/Traditional\ Punk.otf);
+  }
+
+  @font-face {
+    font-family: 'nep-print';
+    src: url(/assets/fonts/neoprint_m319/NeoPrintM319.otf);
+  }
+
+  @font-face {
+    font-family: 'labor-union';
+    src: url(/assets/fonts/labor-union/LaborUnion-Regular.otf);
+  }
