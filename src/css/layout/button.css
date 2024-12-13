@@ -1,0 +1,24 @@
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.button__btn {
+    text-decoration: none;
+    background-color:#ffffff;
+    padding:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    position:relative;
+    border: 1px wheat;
+    font-family: "Power Grotesk Trial";
+    font-size: 12px;
+    line-height: 1.6;
+    background-color: var(--gris-foncé-fond);
+    font-weight: 300;
+    color: white;
+}

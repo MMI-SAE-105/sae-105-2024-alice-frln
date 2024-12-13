@@ -2,10 +2,12 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    padding-right: 3.125rem;
 }
 
 .carousel-track {
     display: flex;
+    gap:60px;
 }
 
 .carousel-slide {

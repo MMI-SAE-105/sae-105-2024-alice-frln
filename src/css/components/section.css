@@ -1,9 +1,6 @@
 .section{
     padding: 0 var(--spaces);
-    background-image: url(../../../assets/img/fondflottaison.webp);
-    background-repeat: no-repeat;
-    background-size: contain;
- }
+}
 
  
 .section__title {
