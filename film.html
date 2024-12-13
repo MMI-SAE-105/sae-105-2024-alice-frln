@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/export-photo-figma/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/export-photo-figma/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -45,55 +46,54 @@
             <div class="film">
                 <h2 class="film__title">Monster</h2>
                 <p>Hiroshi Kurosawa</p>
-                <img class="film__affiche" src="assets/img/pagefilm_monster.webp" alt="Affiche de Monster">
+                <img class="film__affiche" src="assets/img/pagefilm_monster.webp" alt="Affiche de Monster" loading="lazy">
             </div>
     
             <div class="film">
                 <h2 class="film__title">Princesse Mononoké</h2>
                 <p>Hayao Miyazaki</p>
-                <img class="film__affiche" src="assets/img/pagefilm_mononoke.webp" alt="Affiche de Princesse Mononoké">
+                <img class="film__affiche" src="assets/img/pagefilm_mononoke.webp" alt="Affiche de Princesse Mononoké" loading="lazy">
             </div>
     
             <div class="film">
                 <h2 class="film__title">Parasite</h2>
                 <p>Bong Joon-ho</p>
-                <img class="film__affiche" src="assets/img/pagefilm_parasite.webp" alt="Affiche de Parasite">
+                <img class="film__affiche" src="assets/img/pagefilm_parasite.webp" alt="Affiche de Parasite" loading="lazy">
             </div>
     
             <div class="film">
                 <h2 class="film__title">Silence Radio</h2>
                 <p>Groupe Alice Guy</p>
-                <img class="film__affiche" src="assets/img/pagefilm_silenceradio.webp" alt="Affiche de Silence Radio">
+                <img class="film__affiche" src="assets/img/pagefilm_silenceradio.webp" alt="Affiche de Silence Radio" loading="lazy">
             </div>
         </section>
 
         <section id="incontournables">
-            <h3>Les Incontournables</h3>
+            <h3 class="section__subtitle">Les Incontournables</h3>
     
             <div class="carousel">
                 <button class="carousel-button prev">&#10094</button>
                 <div class="carousel-track-container">
                     <ul class="carousel-track">
                         <li class="carousel-slide current-slide">
-                            <a href="https://allocine.fr/film/fichefilm_gen_cfilm=143692.html"><img src="assets/img/pagefilm_inception.webp" alt="Affiche d'Inception réalisé par"></a>
+                            <a href="https://allocine.fr/film/fichefilm_gen_cfilm=143692.html"><img src="assets/img/pagefilm_inception.webp" alt="Affiche d'Inception réalisé par" loading="lazy"></a>
                         </li>
                         <li class="carousel-slide">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=241160.html"><img src="assets/img/pagefilm_geout.webp" alt="Affiche du film Get Out"></a>
+                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=241160.html"><img src="assets/img/pagefilm_geout.webp" alt="Affiche du film Get Out" loading="lazy"></a>
                         </li>
                         <li class="carousel-slide">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=242054.html"><img src="assets/img/pagefilm_moonlight.webp" alt="Affiche du film Moonlight"></a>
+                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=242054.html"><img src="assets/img/pagefilm_moonlight.webp" alt="Affiche du film Moonlight" loading="lazy"></a>
                         </li>
                         <li class="carousel-slide">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=125054.html"><img src="assets/img/pagefilm_madmax.webp" alt="Affiche du film Mad Max : Fury Road"></a>
+                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=125054.html"><img src="assets/img/pagefilm_madmax.webp" alt="Affiche du film Mad Max : Fury Road" loading="lazy"></a>
                         </li>
                         <li class="carousel-slide">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=206775.html"><img src="assets/img/pagefilm_coco.webp" alt="Affiche du film coco"></a>
+                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=206775.html"><img src="assets/img/pagefilm_coco.webp" alt="Affiche du film coco" loading="lazy"></a>
                         </li>
                     </ul>
                 </div>
                 <button class="carousel-button next">&#10095</button>
             </div>
-            <script type="text/javascript" src="src/js/carousel.js"></script>
     
             <h3>Découvrez notre programmation complète !</h3>
             <p>Pour voir tous les détails des projections et découvrir la programmation complète, <a href="" download>téléchargez le programme complet ici</a>.</p>

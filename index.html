@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/export-photo-figma/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/export-photo-figma/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <script src="src/js/menu.js"></script>
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -19,25 +19,38 @@
             <img class="header__logo" src="./assets/img/logo_header_bis.webp" alt=""/>
         </a>
         <img class="header__logo__title" src="./assets/img/titre_logo.webp" alt="Les cinés-Échos"/>
-        <span class="menu-container">
-        <img class="header__menu menu-image" src="./assets/icon-vectors/hamburger-menu_icon.svg" alt="Icone de menu hamburger"/>
-        <ul class="dropdown-menu">
-            <li><a href="#">Page d'acceuil</a></li>
-            <li><a href="#">Programme</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Film</a></li>
-            <li><a href="#">Infos pratiques</a></li>
-            <li><a href="#">Invités</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        </span>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+        >   
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                  <a class="menu__link" href="./index.html">Page d'acceuil</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="about.html">About</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="team.html">Team</a>
+                </li>
+              </ul>
+        </nav>
     </header>
+    
     <main class="section section__index">
-        <section>
-            <p id="test" class="subtitle">Du lundi 2 juillet au dimanche 8 juillet 2024 à Héricourt</p>
-        <button>Réservez maintenant</button>
-
+        <section class="index__flottaison">
+            <p id="index__title" class = "section__subtitle__middle">Du lundi 2 juillet au dimanche 8 juillet 2024 à Héricourt</p>
+            <a class="button button__btn" href="">Réservez maintenant</a>
         </section>
+
         <section class="intro">
             <h3 class="section__subtitle">Plongez dans l’univers des jeunes créateurs du cinéma!</h3>
             <p>Le festival Les Ciné-Échos vous invite à découvrir des films indépendants, des projections inédites en plein air et des expériences immersives. Rejoignez-nous à Héricourt pour une semaine de cinéma, de rencontres et d'ateliers créatifs. Vivez une aventure unique à travers le 7e art !</p>

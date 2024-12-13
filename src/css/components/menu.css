@@ -1,41 +1,73 @@
-.menu-container {
-    position: relative;
-    display: inline-block;
-}
-
-.menu-image {
-    width: 300px;
-    height: auto;
-    cursor: pointer;
-}
-
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    border: 1px solid #ddd;
-    display: none;
-    z-index: 1000;
-}
-
-.dropdown-menu li {
-    padding: 10px 20px;
-}
-
-.dropdown-menu li a {
+.menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: red;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+  }
+  .menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  
+  .menu__link {
+    color: whitered;
     text-decoration: none;
-    color: #333;
+    font-size: var(--fs-xl);
     display: block;
-}
-
-.dropdown-menu li:hover {
-    background-color: #f4f4f4;
-}
-
-.menu-container:hover .dropdown-menu {
-    display: block;
-}
+  }
+  
+  
+  
+  .menu-btn {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+  }
+  
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  
+  .menu-btn__bar::after {
+    top: 10px;
+  }
+  
+  /* Technique pour transformer les 3 barres du bouton de menu en croix
+  Ne pas oublier d'ajouter une transition plus haut pour l'animation */
+  .menu-btn[aria-expanded="true"] .menu-btn__bar,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+   
+  }
+  
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+  }

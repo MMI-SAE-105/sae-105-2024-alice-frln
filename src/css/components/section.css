@@ -2,6 +2,12 @@
     padding: 0 var(--spaces);
 }
 
+.section__index{
+    background-image: url(../../../assets/img/fondflottaison.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
  
 .section__title {
     font-family: "NeoPrint m319";
@@ -22,4 +28,13 @@
     background-color: var(--gris-foncé-fond);
     font-weight: 300;
     color : white;
+}
+
+.section__subtitle__middle {
+    font-family: "Labor Union";
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color : white;
+    text-align: center;
 }
