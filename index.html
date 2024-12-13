@@ -12,6 +12,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/export-photo-figma/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <script type="module" src="/src/js/script.js"></script>
+    <script>
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </head>
 <body>
     <header class="header">
@@ -90,6 +95,7 @@
                 <img class="partenaire_pic_square" src="./assets/img/acceuil_partenaires_cinema-aujourdhui.webp" alt="Logo du partenaire cinéma d'aujourd'hui" loading="lazy">
                 <img class="partenaire_pic_square" src="./assets/img/acceuil_partenaires_culture70.webp" alt="Logo du partenaire culture 70" loading="lazy">
             </div>
+            <img src="./assets/icon-vectors/flèche_haut.svg" alt="Bouton pour remonter en haut" class="scroll-to-top" onclick="scrollToTop()" />
         </section>
     </main>
     <footer class="footer">

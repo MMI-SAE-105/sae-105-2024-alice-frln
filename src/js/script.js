@@ -39,3 +39,7 @@ prevButton.addEventListener('click', () => {
     updateSlidePosition();
 });
 
+//bouton pour scroll en haut de la page\\
+window.scrollToTop = function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
