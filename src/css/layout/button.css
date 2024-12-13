@@ -1,7 +1,11 @@
 .button {
     background-color:#000000;
-    color: white;
+    color: var(--button-color);
     text-decoration: none;
     padding: 10px 20px;
+    text-align: center;
+    font-family: 'Power Grotesk Trial';
+    border: 1px solid;
+    border-color: var(--button-color);
 }
 
