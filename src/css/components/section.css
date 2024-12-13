@@ -37,4 +37,9 @@
     font-weight: 300;
     color : white;
     text-align: center;
+    padding-top: var(--spacel);
+}
+
+.intro {
+    padding-top: 22rem;
 }

@@ -41,11 +41,12 @@ textarea {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.contact-formtitle {
-  font-family: "Ultra", serif;
-  color: var(--violet-);
+.contact-form__title {
+  font-family: 'Labor Union';
+  font-size: 1.25rem;
+  color: black;
   text-align: center;
-  font-size: 28px;
+  font-size: 0;
 }
 
 .contact-formdescription {

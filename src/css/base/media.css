@@ -11,3 +11,21 @@ figure {
     font-size: var(--fs-xs);
     color: var(--gray-600);
 }
+
+.logos--partenaires {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes de largeur égale */
+    gap: 20px; /* Espacement entre les éléments */
+    justify-items: center; /* Centre les éléments dans chaque cellule */
+    max-width: 800px; /* Limite la largeur totale */
+    margin: 0 auto;
+    padding-bottom: var(--spacel);
+}
+
+.partenaire_pic_square, 
+.partenaire_pic_rectangle, 
+.partenaire_pic_long-rectangle {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
