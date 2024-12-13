@@ -1,0 +1,50 @@
+.footer {
+    background-color : var(--fond-footer);
+    padding: 20px;
+    font-family: 'Power Grotesk Trial';
+    color: #000000;
+}
+
+.footer__logo {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: var(--spacexs);
+}
+
+.footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000000; /* Texte noir */
+}
+
+.footer p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.socials__logo-link img {
+    width: 1.5rem;
+    height:auto;
+    transition: transform 0.3s;
+}
+
+.socials__logo-link img:hover {
+    transform: scale(1.2); /* Zoom léger au survol */
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__title {
+    font-size: 0.75rem;
+}

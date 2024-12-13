@@ -11,21 +11,56 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/export-photo-figma/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/export-photo-figma/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
     <header class="header">
-        <a class="header__logo-link" href="/" aria-hidden="true">
-            <img class="header__logo" src="./assets/img/logo.webp" alt=""/>
+        <a class="header__logo-link" href="./index.html" aria-hidden="true">
+            <img class="header__logo" src="./assets/img/logo_header_bis.webp" alt=""/>
         </a>
         <img class="header__logo__title" src="./assets/img/titre_logo.webp" alt="Les cinés-Échos"/>
-        <img class="header__menu" src="./assets/icon-vectors/hamburger-menu_icon.svg" alt="Icone de menu hamburger"/>
+        <button
+            class="header__menu-btn menu-btn"
+            aria-label="menu"
+            aria-expanded="false"
+            aria-controls="mainNav"
+        >   
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="./index.html">Page d'acceuil</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./programme.html">Programme</a>
+                </li>
+                <li class="menu__item">
+                <a class="menu__link" href="./a_propos.html">À propos</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./film.html">Films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./infos_pratiques.html">Infos pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./contact.html">Contact</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./fiche_film.html">Fiche film</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./fiche_invite.html">Fiche invité</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section class="banner">
         <img class="banner-background" src="./assets/img/infospratiques_flottaison.webp" alt="" aria-hidden="true"/>
         <h1 class="banner__title">Infos pratiques</h1>
-    </section> 
-    <main class="section">
-
+    </section>
+    <main class="section"> 
     </main>
     <footer class="footer">
         <img class="footer__logo" src="./assets/img/logo_titre_et_texte.webp" alt="" aria-hidden="true" loading="lazy"/>
@@ -53,7 +88,6 @@
                 <img class="header__logo" src="./assets/icon-vectors/icon_youtbe.svg" alt="Redirection vers notre compte Youtube" loading="lazy"/>
             </a>
         </div>
-        <img id="footer_background" src="./assets/img/fond_footer.webp" alt="" aria-hidden="true" loading="lazy">
     </footer>
 </body>
 </html>

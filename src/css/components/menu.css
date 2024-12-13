@@ -4,7 +4,7 @@
     position: fixed;
     inset: 0;
     z-index: 1;
-    background-color: red;
+    background-color:var(--fond-footer);
     color: black;
     flex-direction: column;
     justify-content: space-between;
@@ -17,10 +17,12 @@
   }
   
   .menu__link {
-    color: whitered;
+    color: var(--menu-text);
     text-decoration: none;
-    font-size: var(--fs-xl);
+    font-size: 1.5rem;
+    font-family: 'Labor Union';
     display: block;
+    padding-bottom: 30px;
   }
   
   
@@ -32,7 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 20;
+    z-index: ;
   }
   
   .menu-btn__bar,
@@ -70,4 +72,9 @@
   .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(90deg);
     top: 0;
+  }
+
+  .menu__list {
+    padding-top: 5rem;
+    margin-left: var(--spaces);
   }
