@@ -6,7 +6,7 @@
 - NOM : Frelin
 - PRÉNOM : Alice
 - GROUPE : B1
-- URL du site :
+- URL du site : https://les-cine-echos.netlify.app
 - URL FIGMA : https://www.figma.com/design/uAZL1AHchs4ndGzSnzRzEp/SAE105_Alice_Frelin_B1?node-id=17-3&t=h4W8LHjZuvvQtaLm-1
 
 ## Sujet
