@@ -29,3 +29,9 @@ figure {
     max-width: 300px;
     height: auto;
 }
+
+.redirection--image {
+    width: 90%;
+    padding-top: var(--spacesm);
+    padding-bottom: var(--spacesm);
+}

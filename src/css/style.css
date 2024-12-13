@@ -16,6 +16,7 @@
 @import "layout/header.css";
 @import "layout/footer.css";
 @import "layout/carousel.css";
+@import "layout/redirection.css";
 
 /* Components */
 @import "components/index.css";

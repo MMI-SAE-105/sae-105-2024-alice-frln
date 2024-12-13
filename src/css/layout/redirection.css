@@ -1,0 +1,21 @@
+.image-container {
+    position: relative;
+    display: inline-block; /* pour ajuster uniquement la taille de l'image */
+}
+
+.redirection--image {
+    display: block;
+    width: 100%; /* Ajuste selon vos besoins */
+    height: auto;
+}
+
+.redirection__texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Power Grotesk Trial';
+    font-size: 1.5em;
+    text-align: center;
+}
